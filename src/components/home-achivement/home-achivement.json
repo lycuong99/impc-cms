@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_home_achivement_home_achivements",
+  "info": {
+    "displayName": "HomeAchivement",
+    "icon": "certificate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Quote": {
+      "type": "richtext",
+      "default": "Quality projects That Create long term Growth"
+    },
+    "TotalProjectTitle": {
+      "type": "string"
+    },
+    "TotalProjectValue": {
+      "type": "biginteger"
+    },
+    "TotalProjectUnit": {
+      "type": "string",
+      "default": "projects"
+    },
+    "TotalPartnerAndCustomerTitle": {
+      "type": "string"
+    },
+    "TotalPartnerAndCustomerValue": {
+      "type": "integer"
+    },
+    "TotalPartnerAndCustomerUnit": {
+      "type": "string",
+      "default": "companies"
+    },
+    "TotalEmployeeTitle": {
+      "type": "string"
+    },
+    "TotalEmployeeValue": {
+      "type": "biginteger"
+    },
+    "TotalEmployeeUnit": {
+      "type": "string",
+      "default": "employees"
+    },
+    "Description": {
+      "type": "richtext",
+      "default": "Together with our Business Partners and Customers, we deliver quality projects that create long-term growth and higher value creation across the country."
+    },
+    "PortfolioBtn": {
+      "type": "string",
+      "default": "PORTFOLIO"
+    }
+  }
+}

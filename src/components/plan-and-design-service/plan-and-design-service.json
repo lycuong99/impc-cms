@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_plan_and_design_service_plan_and_design_services",
+  "info": {
+    "displayName": "PlanAndDesignService",
+    "icon": "chess-bishop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string",
+      "default": "GENERAL INFORMATION"
+    },
+    "PlanningContentTitle": {
+      "type": "string",
+      "default": "Planning services include"
+    },
+    "PlanningContent": {
+      "type": "richtext"
+    },
+    "DesignContentTitle": {
+      "type": "string",
+      "default": "Design services include:"
+    },
+    "DesignContent": {
+      "type": "richtext"
+    },
+    "SubHeader2": {
+      "type": "string",
+      "default": "OUR WORK"
+    },
+    "Header2": {
+      "type": "string",
+      "default": "PLANNING AND DESIGN"
+    }
+  }
+}

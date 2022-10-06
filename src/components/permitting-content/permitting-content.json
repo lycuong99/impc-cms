@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_permitting_content_permitting_contents",
+  "info": {
+    "displayName": "PermittingContent",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Subheader": {
+      "type": "string"
+    },
+    "Header": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

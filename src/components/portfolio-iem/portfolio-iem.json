@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_portfolio_iem_portfolio_iems",
+  "info": {
+    "displayName": "PortfolioIEM",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string",
+      "default": "GENERAL INFORMATION"
+    },
+    "AchivementInfo": {
+      "displayName": "AchivementInfo",
+      "type": "component",
+      "repeatable": true,
+      "component": "achivement-info.achivement-info"
+    },
+    "Infomation": {
+      "displayName": "Infomation2",
+      "type": "component",
+      "repeatable": true,
+      "component": "infomation2.infomation2"
+    },
+    "Subheader2": {
+      "type": "string",
+      "default": "OUR WORK"
+    },
+    "Header2": {
+      "type": "string",
+      "default": "INDUSTRIAL ESTATE MANAGEMENT"
+    }
+  }
+}

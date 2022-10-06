@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_ourteam_home_ourteams",
+  "info": {
+    "displayName": "HomeOurteam",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "text",
+      "default": "Our Team"
+    },
+    "HighlightText": {
+      "type": "text",
+      "default": "IMPC is not only focusing on developing and providing services to our customers."
+    },
+    "Description": {
+      "type": "richtext",
+      "default": "Our Company also heading to enhance the teams and people, non-stop in the development of skills, abilities, and ethics to enhance our team"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

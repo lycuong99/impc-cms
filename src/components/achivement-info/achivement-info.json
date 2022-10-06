@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_achivement_info_achivement_infos",
+  "info": {
+    "displayName": "AchivementInfo",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "HighlightText": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "kind": "singleType",
+  "collectionName": "portfolio_pages",
+  "info": {
+    "singularName": "portfolio-page",
+    "pluralName": "portfolio-pages",
+    "displayName": "PortfolioPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "PortfolioBanner": {
+      "displayName": "PortfolioBanner",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "portfolio-banner.portfolio-banner"
+    },
+    "PortfolioPlanningAndDesign": {
+      "displayName": "PlanAndDesignService",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "plan-and-design-service.plan-and-design-service"
+    },
+    "PortfolioPermitting": {
+      "displayName": "PortfolioPermitting",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "portfolio-permitting.portfolio-permitting"
+    },
+    "PortfolioProjectAndConstructionManagement": {
+      "displayName": "PortfolioPM",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "portfolio-pm.portfolio-pm"
+    },
+    "PortfolioIEM": {
+      "displayName": "PortfolioIEM",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "portfolio-iem.portfolio-iem"
+    },
+    "SeoPortfolio": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "seo.seo"
+    }
+  }
+}

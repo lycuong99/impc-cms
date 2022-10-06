@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_service_sliders_service_sliders",
+  "info": {
+    "displayName": "serviceSliders",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "ImageURL": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_portfolio_pm_portfolio_pms",
+  "info": {
+    "displayName": "PortfolioPM",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string",
+      "default": "GENERAL INFORMATION"
+    },
+    "CertificateTitle": {
+      "type": "text",
+      "default": "IMP Practising Certificate for Building Works"
+    },
+    "CertificateImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ChartTitle": {
+      "type": "string",
+      "default": "The Percentage Of Employees Have Diploma"
+    },
+    "ProjectAndConstructionContentTitle": {
+      "type": "string",
+      "default": "Project Management And Construction Management Services Include:"
+    },
+    "ProjectAndConstructionContent": {
+      "type": "richtext",
+      "private": true
+    },
+    "Subheader2": {
+      "type": "string",
+      "default": "OUR WORK"
+    },
+    "Header2": {
+      "type": "string",
+      "default": "PROJECT AND CONSTRUCTION MANAGEMENT"
+    }
+  }
+}

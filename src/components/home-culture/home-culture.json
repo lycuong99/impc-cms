@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_culture_home_cultures",
+  "info": {
+    "displayName": "HomeCulture",
+    "icon": "chess-queen",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string",
+      "default": "Our Culture"
+    },
+    "Description": {
+      "type": "richtext",
+      "default": "The fundamental development of IMP Design and Technical Management Corporation is always           rooted in smart investment, sustainable development, learning, and creating for the benefit           of the community, customers, partners, and company."
+    },
+    "CultureSlider": {
+      "displayName": "CultureSlider",
+      "type": "component",
+      "repeatable": true,
+      "component": "culture-slider.culture-slider"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_navigations_navigations",
+  "info": {
+    "displayName": "Navigation",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HomepageTitle": {
+      "type": "string",
+      "default": "About Us"
+    },
+    "ServiceTitle": {
+      "type": "string",
+      "default": "What we do"
+    },
+    "PortfolioTitle": {
+      "type": "string",
+      "default": "Portfolio"
+    }
+  }
+}

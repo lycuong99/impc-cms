@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_portfolio_banner_portfolio_banners",
+  "info": {
+    "displayName": "PortfolioBanner",
+    "icon": "chalkboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string",
+      "default": "PORTFOLIO"
+    },
+    "Subheader": {
+      "type": "text",
+      "default": "Our experiences define our identity"
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

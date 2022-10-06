@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_permitting_service_permittings",
+  "info": {
+    "displayName": "ServicePermitting",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Content": {
+      "displayName": "PermittingContent",
+      "type": "component",
+      "repeatable": false,
+      "component": "permitting-content.permitting-content"
+    },
+    "PortfolioLinkButton": {
+      "type": "string",
+      "default": "PORTFOLIO"
+    }
+  }
+}

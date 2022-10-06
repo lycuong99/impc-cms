@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_service_planning_and_design_service_planning_and_designs",
+  "info": {
+    "displayName": "ServicePlanningAndDesign",
+    "icon": "eye-dropper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "PortfolioLinkButton": {
+      "type": "string",
+      "default": "PORTFOLIO"
+    },
+    "SliderItems": {
+      "displayName": "SliderItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "slider-items.slider-items"
+    }
+  }
+}

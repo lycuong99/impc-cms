@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_culture_slider_culture_sliders",
+  "info": {
+    "displayName": "CultureSlider",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Statement": {
+      "type": "richtext"
+    }
+  }
+}

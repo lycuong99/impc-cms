@@ -1,0 +1,96 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "HomeBanner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "banner.banner"
+    },
+    "HomeAchivement": {
+      "displayName": "HomeAchivement",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home-achivement.home-achivement"
+    },
+    "HomeCulture": {
+      "displayName": "HomeCulture",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home-culture.home-culture"
+    },
+    "CompanyOverview": {
+      "displayName": "HomeCompanyOverview",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home-company-overview.home-company-overview"
+    },
+    "HomeOurTeam": {
+      "displayName": "HomeOurteam",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home-ourteam.home-ourteam"
+    },
+    "HomePartnerCustomer": {
+      "displayName": "HomePartnerCustomer",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home-partner-customer.home-partner-customer"
+    },
+    "SeoHomepage": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "seo.seo"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_portfolio_permitting_portfolio_permittings",
+  "info": {
+    "displayName": "PortfolioPermitting",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string",
+      "default": "GENERAL INFORMATION"
+    },
+    "PermittingContentTitle": {
+      "type": "string"
+    },
+    "PermittingContent": {
+      "type": "richtext"
+    },
+    "Subheader2": {
+      "type": "string",
+      "default": "OUR WORK"
+    },
+    "Header2": {
+      "type": "string",
+      "default": "PERMITTING"
+    }
+  }
+}

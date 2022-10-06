@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_banner_banners",
+  "info": {
+    "displayName": "homebanner",
+    "icon": "home",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Subheader": {
+      "type": "string"
+    },
+    "Header1": {
+      "type": "richtext"
+    },
+    "Header2": {
+      "type": "richtext"
+    },
+    "ServiceLinkTitle": {
+      "type": "string"
+    },
+    "ContactButton": {
+      "type": "string"
+    },
+    "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "HomeBannerServiceSliders": {
+      "displayName": "serviceSliders",
+      "type": "component",
+      "repeatable": true,
+      "component": "service-sliders.service-sliders"
+    },
+    "DefaultSlideImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

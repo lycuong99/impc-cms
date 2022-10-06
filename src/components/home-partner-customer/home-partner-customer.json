@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_partner_customer_home_partner_customers",
+  "info": {
+    "displayName": "HomePartnerCustomer",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "text",
+      "default": "Trusted by customers, partners and the industry"
+    },
+    "CustomersPartnersList": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
