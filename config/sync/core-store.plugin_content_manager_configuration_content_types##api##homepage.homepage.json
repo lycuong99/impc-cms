@@ -1,0 +1,207 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::homepage.homepage",
+  "value": {
+    "uid": "api::homepage.homepage",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "HomeBanner": {
+        "edit": {
+          "label": "HomeBanner",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HomeBanner",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "HomeAchivement": {
+        "edit": {
+          "label": "HomeAchivement",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HomeAchivement",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "HomeCulture": {
+        "edit": {
+          "label": "HomeCulture",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HomeCulture",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "CompanyOverview": {
+        "edit": {
+          "label": "CompanyOverview",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "CompanyOverview",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "HomeOurTeam": {
+        "edit": {
+          "label": "HomeOurTeam",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HomeOurTeam",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "HomePartnerCustomer": {
+        "edit": {
+          "label": "HomePartnerCustomer",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HomePartnerCustomer",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "SeoHomepage": {
+        "edit": {
+          "label": "SeoHomepage",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "SeoHomepage",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "HomeBanner"
+      ],
+      "edit": [
+        [
+          {
+            "name": "HomeBanner",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "HomeAchivement",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "CompanyOverview",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "HomeCulture",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "HomeOurTeam",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "HomePartnerCustomer",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "SeoHomepage",
+            "size": 12
+          }
+        ]
+      ],
+      "editRelations": []
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

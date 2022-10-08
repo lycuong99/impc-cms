@@ -1,0 +1,185 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::footer.footer",
+  "value": {
+    "uid": "api::footer.footer",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Navigation": {
+        "edit": {
+          "label": "Navigation",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Navigation",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Email": {
+        "edit": {
+          "label": "Email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Phone": {
+        "edit": {
+          "label": "Phone",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Phone",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "CompanyLocations": {
+        "edit": {
+          "label": "CompanyLocations",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "CompanyLocations",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "CompanyName": {
+        "edit": {
+          "label": "CompanyName",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "CompanyName",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ContactTitle": {
+        "edit": {
+          "label": "ContactTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ContactTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "Navigation"
+      ],
+      "edit": [
+        [
+          {
+            "name": "CompanyName",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Email",
+            "size": 6
+          },
+          {
+            "name": "Phone",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Navigation",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "ContactTitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "CompanyLocations",
+            "size": 12
+          }
+        ]
+      ],
+      "editRelations": []
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

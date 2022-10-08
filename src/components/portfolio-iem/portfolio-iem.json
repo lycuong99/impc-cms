@@ -23,11 +23,7 @@
       "repeatable": true,
       "component": "infomation2.infomation2"
     },
-    "Subheader2": {
-      "type": "string",
-      "default": "OUR WORK"
-    },
-    "Header2": {
+    "ServiceTitle": {
       "type": "string",
       "default": "INDUSTRIAL ESTATE MANAGEMENT"
     }

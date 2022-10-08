@@ -1,0 +1,187 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::service-page.service-page",
+  "value": {
+    "uid": "api::service-page.service-page",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ServiceBanner": {
+        "edit": {
+          "label": "ServiceBanner",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ServiceBanner",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "PlanningAndDesign": {
+        "edit": {
+          "label": "PlanningAndDesign",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "PlanningAndDesign",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Permitting": {
+        "edit": {
+          "label": "Permitting",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Permitting",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ProjectAndConstructionManagement": {
+        "edit": {
+          "label": "ProjectAndConstructionManagement",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ProjectAndConstructionManagement",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "IndustrialEstateManagement": {
+        "edit": {
+          "label": "IndustrialEstateManagement",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "IndustrialEstateManagement",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Seo": {
+        "edit": {
+          "label": "Seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "PlanningAndDesign"
+      ],
+      "edit": [
+        [
+          {
+            "name": "ServiceBanner",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "PlanningAndDesign",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Permitting",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "IndustrialEstateManagement",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "ProjectAndConstructionManagement",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Seo",
+            "size": 12
+          }
+        ]
+      ],
+      "editRelations": []
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

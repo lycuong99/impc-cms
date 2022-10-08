@@ -1,0 +1,274 @@
+{
+  "key": "plugin_content_manager_configuration_components::home-achivement.home-achivement",
+  "value": {
+    "uid": "home-achivement.home-achivement",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "TotalProjectTitle",
+      "defaultSortBy": "TotalProjectTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Quote": {
+        "edit": {
+          "label": "Quote",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Quote",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "TotalProjectTitle": {
+        "edit": {
+          "label": "TotalProjectTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TotalProjectTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "TotalProjectValue": {
+        "edit": {
+          "label": "TotalProjectValue",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TotalProjectValue",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "TotalProjectUnit": {
+        "edit": {
+          "label": "TotalProjectUnit",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TotalProjectUnit",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "TotalPartnerAndCustomerTitle": {
+        "edit": {
+          "label": "TotalPartnerAndCustomerTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TotalPartnerAndCustomerTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "TotalPartnerAndCustomerValue": {
+        "edit": {
+          "label": "TotalPartnerAndCustomerValue",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TotalPartnerAndCustomerValue",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "TotalPartnerAndCustomerUnit": {
+        "edit": {
+          "label": "TotalPartnerAndCustomerUnit",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TotalPartnerAndCustomerUnit",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "TotalEmployeeTitle": {
+        "edit": {
+          "label": "TotalEmployeeTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TotalEmployeeTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "TotalEmployeeValue": {
+        "edit": {
+          "label": "TotalEmployeeValue",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TotalEmployeeValue",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "TotalEmployeeUnit": {
+        "edit": {
+          "label": "TotalEmployeeUnit",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "TotalEmployeeUnit",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Description": {
+        "edit": {
+          "label": "Description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Description",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "PortfolioBtn": {
+        "edit": {
+          "label": "PortfolioBtn",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "PortfolioBtn",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "TotalProjectTitle",
+        "TotalProjectValue",
+        "TotalProjectUnit"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Quote",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Description",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "TotalProjectTitle",
+            "size": 6
+          },
+          {
+            "name": "TotalProjectValue",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "TotalProjectUnit",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "TotalPartnerAndCustomerTitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "TotalEmployeeTitle",
+            "size": 6
+          },
+          {
+            "name": "TotalEmployeeValue",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "TotalEmployeeUnit",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "PortfolioBtn",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "TotalPartnerAndCustomerValue",
+            "size": 4
+          },
+          {
+            "name": "TotalPartnerAndCustomerUnit",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

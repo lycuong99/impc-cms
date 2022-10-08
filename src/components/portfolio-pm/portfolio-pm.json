@@ -17,7 +17,7 @@
     },
     "CertificateImage": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images"
@@ -27,21 +27,14 @@
       "type": "string",
       "default": "The Percentage Of Employees Have Diploma"
     },
-    "ProjectAndConstructionContentTitle": {
-      "type": "string",
-      "default": "Project Management And Construction Management Services Include:"
-    },
-    "ProjectAndConstructionContent": {
-      "type": "richtext",
-      "private": true
-    },
-    "Subheader2": {
-      "type": "string",
-      "default": "OUR WORK"
-    },
-    "Header2": {
+    "ServiceTitle": {
       "type": "string",
       "default": "PROJECT AND CONSTRUCTION MANAGEMENT"
+    },
+    "Information": {
+      "type": "component",
+      "repeatable": false,
+      "component": "infomation2.infomation2"
     }
   }
 }

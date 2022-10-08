@@ -1,0 +1,138 @@
+{
+  "key": "plugin_content_manager_configuration_components::home-company-overview.home-company-overview",
+  "value": {
+    "uid": "home-company-overview.home-company-overview",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Header": {
+        "edit": {
+          "label": "Header",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Header",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Image": {
+        "edit": {
+          "label": "Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "HighlightText": {
+        "edit": {
+          "label": "HighlightText",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HighlightText",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "FirstDescription": {
+        "edit": {
+          "label": "FirstDescription",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FirstDescription",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "SecondDescription": {
+        "edit": {
+          "label": "SecondDescription",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "SecondDescription",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Header",
+        "Image",
+        "HighlightText"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Header",
+            "size": 6
+          },
+          {
+            "name": "Image",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "HighlightText",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "FirstDescription",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "SecondDescription",
+            "size": 12
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

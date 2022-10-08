@@ -11,27 +11,15 @@
       "type": "string",
       "default": "GENERAL INFORMATION"
     },
-    "PlanningContentTitle": {
-      "type": "string",
-      "default": "Planning services include"
-    },
-    "PlanningContent": {
-      "type": "richtext"
-    },
-    "DesignContentTitle": {
-      "type": "string",
-      "default": "Design services include:"
-    },
-    "DesignContent": {
-      "type": "richtext"
-    },
-    "SubHeader2": {
-      "type": "string",
-      "default": "OUR WORK"
-    },
-    "Header2": {
+    "ServiceTitle": {
       "type": "string",
       "default": "PLANNING AND DESIGN"
+    },
+    "Information": {
+      "type": "component",
+      "repeatable": true,
+      "component": "infomation2.infomation2",
+      "max": 2
     }
   }
 }

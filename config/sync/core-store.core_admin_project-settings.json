@@ -1,0 +1,18 @@
+{
+  "key": "core_admin_project-settings",
+  "value": {
+    "menuLogo": {
+      "name": "logoColor.svg",
+      "hash": "logo_Color_84066002d9",
+      "url": "/uploads/logo_Color_84066002d9.svg",
+      "width": 162,
+      "height": 48,
+      "ext": ".svg",
+      "size": 2.62,
+      "provider": "local"
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

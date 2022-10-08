@@ -1,0 +1,99 @@
+{
+  "key": "plugin_content_manager_configuration_components::portfolio-permitting.portfolio-permitting",
+  "value": {
+    "uid": "portfolio-permitting.portfolio-permitting",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Header",
+      "defaultSortBy": "Header",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Header": {
+        "edit": {
+          "label": "Header",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Header",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ServiceTitle": {
+        "edit": {
+          "label": "ServiceTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ServiceTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Information": {
+        "edit": {
+          "label": "Information",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Information",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Header",
+        "ServiceTitle"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Header",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Information",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "ServiceTitle",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

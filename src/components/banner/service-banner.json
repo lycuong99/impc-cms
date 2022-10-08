@@ -11,12 +11,13 @@
       "type": "richtext",
       "default": "Given the dramatic increase in Industrial Development Investors, we understand the opportunities, as well as the great demand and concerns of these potential clients in consulting and providing services during the planning and development phase of their projects."
     },
-    "BackgroudImage": {
+    "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "Header": {
       "type": "text",

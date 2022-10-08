@@ -82,7 +82,7 @@
       },
       "component": "home-partner-customer.home-partner-customer"
     },
-    "SeoHomepage": {
+    "Seo": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {

@@ -1,0 +1,77 @@
+{
+  "key": "plugin_content_manager_configuration_components::achivement-info.achivement-info",
+  "value": {
+    "uid": "achivement-info.achivement-info",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "HighlightText",
+      "defaultSortBy": "HighlightText",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "HighlightText": {
+        "edit": {
+          "label": "HighlightText",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "HighlightText",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Content": {
+        "edit": {
+          "label": "Content",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Content",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "HighlightText",
+        "Content"
+      ],
+      "edit": [
+        [
+          {
+            "name": "HighlightText",
+            "size": 6
+          },
+          {
+            "name": "Content",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

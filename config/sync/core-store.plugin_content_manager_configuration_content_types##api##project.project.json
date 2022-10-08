@@ -1,0 +1,277 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::project.project",
+  "value": {
+    "uid": "api::project.project",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Name",
+      "defaultSortBy": "Name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Name": {
+        "edit": {
+          "label": "Name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Image": {
+        "edit": {
+          "label": "Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "IsPlanningAndDesign": {
+        "edit": {
+          "label": "IsPlanningAndDesign",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "IsPlanningAndDesign",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "IsPermitting": {
+        "edit": {
+          "label": "IsPermitting",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "IsPermitting",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "IsProjectAndConstructionManagement": {
+        "edit": {
+          "label": "IsProjectAndConstructionManagement",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "IsProjectAndConstructionManagement",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "IsIndustrialEstateManagement": {
+        "edit": {
+          "label": "IsIndustrialEstateManagement",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "IsIndustrialEstateManagement",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Investor": {
+        "edit": {
+          "label": "Investor",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Investor",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Function": {
+        "edit": {
+          "label": "Function",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Function",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "LandArea": {
+        "edit": {
+          "label": "LandArea",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "LandArea",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "GFA": {
+        "edit": {
+          "label": "GFA",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "GFA",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "InvesmentCapital": {
+        "edit": {
+          "label": "InvesmentCapital",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "InvesmentCapital",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Image",
+        "createdAt",
+        "Name"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Name",
+            "size": 6
+          },
+          {
+            "name": "Image",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "IsPlanningAndDesign",
+            "size": 4
+          },
+          {
+            "name": "IsPermitting",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "IsProjectAndConstructionManagement",
+            "size": 4
+          },
+          {
+            "name": "IsIndustrialEstateManagement",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Investor",
+            "size": 6
+          },
+          {
+            "name": "Function",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "LandArea",
+            "size": 4
+          },
+          {
+            "name": "GFA",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "InvesmentCapital",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

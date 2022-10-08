@@ -71,7 +71,7 @@
       },
       "component": "portfolio-iem.portfolio-iem"
     },
-    "SeoPortfolio": {
+    "Seo": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -80,6 +80,16 @@
         }
       },
       "component": "seo.seo"
+    },
+    "ProjectTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "OUT WORK",
+      "required": true
     }
   }
 }

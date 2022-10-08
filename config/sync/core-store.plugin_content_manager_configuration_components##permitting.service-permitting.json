@@ -1,0 +1,100 @@
+{
+  "key": "plugin_content_manager_configuration_components::permitting.service-permitting",
+  "value": {
+    "uid": "permitting.service-permitting",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Header",
+      "defaultSortBy": "Header",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Header": {
+        "edit": {
+          "label": "Header",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Header",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Content": {
+        "edit": {
+          "label": "Content",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Content",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "PortfolioLinkButton": {
+        "edit": {
+          "label": "PortfolioLinkButton",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "PortfolioLinkButton",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Header",
+        "Content",
+        "PortfolioLinkButton"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Header",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Content",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "PortfolioLinkButton",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

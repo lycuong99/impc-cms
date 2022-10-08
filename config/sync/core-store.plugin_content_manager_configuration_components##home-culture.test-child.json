@@ -1,0 +1,58 @@
+{
+  "key": "plugin_content_manager_configuration_components::home-culture.test-child",
+  "value": {
+    "uid": "home-culture.test-child",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Cuong",
+      "defaultSortBy": "Cuong",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Cuong": {
+        "edit": {
+          "label": "Cuong",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Cuong",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Cuong"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Cuong",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

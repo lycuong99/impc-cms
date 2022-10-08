@@ -1,0 +1,138 @@
+{
+  "key": "plugin_content_manager_configuration_components::seo.seo",
+  "value": {
+    "uid": "seo.seo",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "PageTitle",
+      "defaultSortBy": "PageTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "PageTitle": {
+        "edit": {
+          "label": "PageTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "PageTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "MetaTitle": {
+        "edit": {
+          "label": "MetaTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "MetaTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "MetaKeyWords": {
+        "edit": {
+          "label": "MetaKeyWords",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "MetaKeyWords",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "MetaDescription": {
+        "edit": {
+          "label": "MetaDescription",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "MetaDescription",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "MetaImage": {
+        "edit": {
+          "label": "MetaImage",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "MetaImage",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "PageTitle",
+        "MetaTitle",
+        "MetaImage"
+      ],
+      "edit": [
+        [
+          {
+            "name": "PageTitle",
+            "size": 6
+          },
+          {
+            "name": "MetaTitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "MetaKeyWords",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "MetaDescription",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "MetaImage",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
