@@ -14,7 +14,7 @@
       "displayName": "PermittingContent",
       "type": "component",
       "repeatable": false,
-      "component": "permitting-content.permitting-content"
+      "component": "service-page-component.permitting-content"
     },
     "PortfolioLinkButton": {
       "type": "string",

@@ -24,7 +24,7 @@
           "localized": true
         }
       },
-      "component": "navigations.navigation"
+      "component": "global.navigation"
     },
     "Email": {
       "pluginOptions": {
@@ -52,7 +52,7 @@
           "localized": true
         }
       },
-      "component": "company-location.company-location"
+      "component": "global.company-location"
     },
     "CompanyName": {
       "pluginOptions": {

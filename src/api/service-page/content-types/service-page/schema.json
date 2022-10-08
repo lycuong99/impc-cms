@@ -36,7 +36,7 @@
           "localized": true
         }
       },
-      "component": "service-planning-and-design.service-planning-and-design"
+      "component": "service-page-component.service-planning-and-design"
     },
     "Permitting": {
       "displayName": "ServicePermitting",
@@ -47,7 +47,7 @@
           "localized": true
         }
       },
-      "component": "permitting.service-permitting"
+      "component": "service-page-component.service-permitting"
     },
     "ProjectAndConstructionManagement": {
       "type": "component",
@@ -57,7 +57,7 @@
           "localized": true
         }
       },
-      "component": "service-planning-and-design.service-planning-and-design"
+      "component": "service-page-component.service-planning-and-design"
     },
     "IndustrialEstateManagement": {
       "type": "component",
@@ -67,7 +67,7 @@
           "localized": true
         }
       },
-      "component": "permitting.service-permitting"
+      "component": "service-page-component.service-permitting"
     },
     "Seo": {
       "type": "component",
@@ -77,7 +77,7 @@
           "localized": true
         }
       },
-      "component": "seo.seo"
+      "component": "global.seo"
     }
   }
 }

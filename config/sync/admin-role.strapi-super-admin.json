@@ -212,11 +212,11 @@
           "HomeOurTeam.Image",
           "HomePartnerCustomer.Header",
           "HomePartnerCustomer.CustomersPartnersList",
-          "SeoHomepage.PageTitle",
-          "SeoHomepage.MetaTitle",
-          "SeoHomepage.MetaKeyWords",
-          "SeoHomepage.MetaDescription",
-          "SeoHomepage.MetaImage"
+          "Seo.PageTitle",
+          "Seo.MetaTitle",
+          "Seo.MetaKeyWords",
+          "Seo.MetaDescription",
+          "Seo.MetaImage"
         ],
         "locales": [
           "en",
@@ -289,11 +289,11 @@
           "HomeOurTeam.Image",
           "HomePartnerCustomer.Header",
           "HomePartnerCustomer.CustomersPartnersList",
-          "SeoHomepage.PageTitle",
-          "SeoHomepage.MetaTitle",
-          "SeoHomepage.MetaKeyWords",
-          "SeoHomepage.MetaDescription",
-          "SeoHomepage.MetaImage"
+          "Seo.PageTitle",
+          "Seo.MetaTitle",
+          "Seo.MetaKeyWords",
+          "Seo.MetaDescription",
+          "Seo.MetaImage"
         ],
         "locales": [
           "en",
@@ -344,11 +344,11 @@
           "HomeOurTeam.Image",
           "HomePartnerCustomer.Header",
           "HomePartnerCustomer.CustomersPartnersList",
-          "SeoHomepage.PageTitle",
-          "SeoHomepage.MetaTitle",
-          "SeoHomepage.MetaKeyWords",
-          "SeoHomepage.MetaDescription",
-          "SeoHomepage.MetaImage"
+          "Seo.PageTitle",
+          "Seo.MetaTitle",
+          "Seo.MetaKeyWords",
+          "Seo.MetaDescription",
+          "Seo.MetaImage"
         ],
         "locales": [
           "en",
@@ -386,11 +386,11 @@
           "PortfolioIEM.Infomation.Title",
           "PortfolioIEM.Infomation.Content",
           "PortfolioIEM.ServiceTitle",
-          "SeoPortfolio.PageTitle",
-          "SeoPortfolio.MetaTitle",
-          "SeoPortfolio.MetaKeyWords",
-          "SeoPortfolio.MetaDescription",
-          "SeoPortfolio.MetaImage",
+          "Seo.PageTitle",
+          "Seo.MetaTitle",
+          "Seo.MetaKeyWords",
+          "Seo.MetaDescription",
+          "Seo.MetaImage",
           "ProjectTitle"
         ],
         "locales": [
@@ -451,11 +451,11 @@
           "PortfolioIEM.Infomation.Title",
           "PortfolioIEM.Infomation.Content",
           "PortfolioIEM.ServiceTitle",
-          "SeoPortfolio.PageTitle",
-          "SeoPortfolio.MetaTitle",
-          "SeoPortfolio.MetaKeyWords",
-          "SeoPortfolio.MetaDescription",
-          "SeoPortfolio.MetaImage",
+          "Seo.PageTitle",
+          "Seo.MetaTitle",
+          "Seo.MetaKeyWords",
+          "Seo.MetaDescription",
+          "Seo.MetaImage",
           "ProjectTitle"
         ],
         "locales": [
@@ -494,11 +494,11 @@
           "PortfolioIEM.Infomation.Title",
           "PortfolioIEM.Infomation.Content",
           "PortfolioIEM.ServiceTitle",
-          "SeoPortfolio.PageTitle",
-          "SeoPortfolio.MetaTitle",
-          "SeoPortfolio.MetaKeyWords",
-          "SeoPortfolio.MetaDescription",
-          "SeoPortfolio.MetaImage",
+          "Seo.PageTitle",
+          "Seo.MetaTitle",
+          "Seo.MetaKeyWords",
+          "Seo.MetaDescription",
+          "Seo.MetaImage",
           "ProjectTitle"
         ],
         "locales": [

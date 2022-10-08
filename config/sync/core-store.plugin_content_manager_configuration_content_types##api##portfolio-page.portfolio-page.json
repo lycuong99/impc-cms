@@ -90,16 +90,16 @@
           "sortable": false
         }
       },
-      "SeoPortfolio": {
+      "Seo": {
         "edit": {
-          "label": "SeoPortfolio",
+          "label": "Seo",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "SeoPortfolio",
+          "label": "Seo",
           "searchable": false,
           "sortable": false
         }
@@ -148,6 +148,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "PortfolioBanner"
+      ],
       "edit": [
         [
           {
@@ -187,18 +193,12 @@
         ],
         [
           {
-            "name": "SeoPortfolio",
+            "name": "Seo",
             "size": 12
           }
         ]
       ],
-      "editRelations": [],
-      "list": [
-        "id",
-        "createdAt",
-        "updatedAt",
-        "PortfolioBanner"
-      ]
+      "editRelations": []
     }
   },
   "type": "object",

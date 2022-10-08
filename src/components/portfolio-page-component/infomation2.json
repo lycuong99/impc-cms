@@ -1,8 +1,9 @@
 {
   "collectionName": "components_infomation2_infomation2s",
   "info": {
-    "displayName": "Infomation2",
-    "description": ""
+    "displayName": "ServiceInformation",
+    "description": "",
+    "icon": "list"
   },
   "options": {},
   "attributes": {

@@ -36,7 +36,7 @@
           "localized": true
         }
       },
-      "component": "home-achivement.home-achivement"
+      "component": "home-page-component.home-achivement"
     },
     "HomeCulture": {
       "displayName": "HomeCulture",
@@ -47,7 +47,7 @@
           "localized": true
         }
       },
-      "component": "home-culture.home-culture"
+      "component": "home-page-component.home-culture"
     },
     "CompanyOverview": {
       "displayName": "HomeCompanyOverview",
@@ -58,7 +58,7 @@
           "localized": true
         }
       },
-      "component": "home-company-overview.home-company-overview"
+      "component": "home-page-component.home-company-overview"
     },
     "HomeOurTeam": {
       "displayName": "HomeOurteam",
@@ -69,7 +69,7 @@
           "localized": true
         }
       },
-      "component": "home-ourteam.home-ourteam"
+      "component": "home-page-component.home-ourteam"
     },
     "HomePartnerCustomer": {
       "displayName": "HomePartnerCustomer",
@@ -80,7 +80,7 @@
           "localized": true
         }
       },
-      "component": "home-partner-customer.home-partner-customer"
+      "component": "home-page-component.home-partner-customer"
     },
     "Seo": {
       "type": "component",
@@ -90,7 +90,7 @@
           "localized": true
         }
       },
-      "component": "seo.seo"
+      "component": "global.seo"
     }
   }
 }

@@ -104,16 +104,16 @@
           "sortable": false
         }
       },
-      "SeoHomepage": {
+      "Seo": {
         "edit": {
-          "label": "SeoHomepage",
+          "label": "Seo",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "SeoHomepage",
+          "label": "Seo",
           "searchable": false,
           "sortable": false
         }
@@ -193,7 +193,7 @@
         ],
         [
           {
-            "name": "SeoHomepage",
+            "name": "Seo",
             "size": 12
           }
         ]

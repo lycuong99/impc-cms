@@ -19,11 +19,12 @@
       "default": "Our Company also heading to enhance the teams and people, non-stop in the development of skills, abilities, and ethics to enhance our team"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

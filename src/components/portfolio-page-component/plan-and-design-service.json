@@ -1,7 +1,7 @@
 {
   "collectionName": "components_plan_and_design_service_plan_and_design_services",
   "info": {
-    "displayName": "PlanAndDesignService",
+    "displayName": "PAndDService",
     "icon": "chess-bishop",
     "description": ""
   },
@@ -18,7 +18,7 @@
     "Information": {
       "type": "component",
       "repeatable": true,
-      "component": "infomation2.infomation2",
+      "component": "portfolio-page-component.infomation2",
       "max": 2
     }
   }

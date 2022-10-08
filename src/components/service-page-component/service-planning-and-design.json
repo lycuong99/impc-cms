@@ -1,7 +1,7 @@
 {
   "collectionName": "components_service_planning_and_design_service_planning_and_designs",
   "info": {
-    "displayName": "ServicePlanningAndDesign",
+    "displayName": "PlanningAndDesign",
     "icon": "eye-dropper",
     "description": ""
   },
@@ -18,7 +18,7 @@
       "displayName": "SliderItems",
       "type": "component",
       "repeatable": true,
-      "component": "slider-items.slider-items"
+      "component": "service-page-component.slider-items"
     }
   }
 }

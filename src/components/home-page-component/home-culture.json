@@ -19,7 +19,7 @@
       "displayName": "CultureSlider",
       "type": "component",
       "repeatable": true,
-      "component": "culture-slider.culture-slider"
+      "component": "home-page-component.culture-slider"
     }
   }
 }

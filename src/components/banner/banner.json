@@ -34,7 +34,7 @@
       "displayName": "serviceSliders",
       "type": "component",
       "repeatable": true,
-      "component": "service-sliders.service-sliders"
+      "component": "home-page-component.service-sliders"
     },
     "DefaultSlideImage": {
       "type": "media",

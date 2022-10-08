@@ -12,11 +12,12 @@
       "default": "Trusted by customers, partners and the industry"
     },
     "CustomersPartnersList": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }

@@ -2,7 +2,8 @@
   "collectionName": "components_achivement_info_achivement_infos",
   "info": {
     "displayName": "AchivementInfo",
-    "icon": "crown"
+    "icon": "crown",
+    "description": ""
   },
   "options": {},
   "attributes": {

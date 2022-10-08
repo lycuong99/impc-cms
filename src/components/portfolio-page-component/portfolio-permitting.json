@@ -1,7 +1,7 @@
 {
   "collectionName": "components_portfolio_permitting_portfolio_permittings",
   "info": {
-    "displayName": "PortfolioPermitting",
+    "displayName": "Permitting",
     "icon": "address-card",
     "description": ""
   },
@@ -18,7 +18,7 @@
     "Information": {
       "type": "component",
       "repeatable": false,
-      "component": "infomation2.infomation2"
+      "component": "portfolio-page-component.infomation2"
     }
   }
 }

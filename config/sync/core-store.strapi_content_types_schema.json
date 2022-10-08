@@ -1987,7 +1987,7 @@
           },
           "component": "home-partner-customer.home-partner-customer"
         },
-        "SeoHomepage": {
+        "Seo": {
           "type": "component",
           "repeatable": false,
           "pluginOptions": {
@@ -2129,7 +2129,7 @@
             },
             "component": "home-partner-customer.home-partner-customer"
           },
-          "SeoHomepage": {
+          "Seo": {
             "type": "component",
             "repeatable": false,
             "pluginOptions": {
@@ -2224,7 +2224,7 @@
           },
           "component": "portfolio-iem.portfolio-iem"
         },
-        "SeoPortfolio": {
+        "Seo": {
           "type": "component",
           "repeatable": false,
           "pluginOptions": {
@@ -2365,7 +2365,7 @@
             },
             "component": "portfolio-iem.portfolio-iem"
           },
-          "SeoPortfolio": {
+          "Seo": {
             "type": "component",
             "repeatable": false,
             "pluginOptions": {

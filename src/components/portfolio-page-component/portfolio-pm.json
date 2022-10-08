@@ -1,7 +1,7 @@
 {
   "collectionName": "components_portfolio_pm_portfolio_pms",
   "info": {
-    "displayName": "PortfolioPM",
+    "displayName": "PEM",
     "icon": "address-book",
     "description": ""
   },
@@ -34,7 +34,7 @@
     "Information": {
       "type": "component",
       "repeatable": false,
-      "component": "infomation2.infomation2"
+      "component": "portfolio-page-component.infomation2"
     }
   }
 }

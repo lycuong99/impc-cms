@@ -16,11 +16,12 @@
       "default": "Our experiences define our identity"
     },
     "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
